@@ -1,0 +1,108 @@
+/* Colors and Fonts */
+
+body{
+  background: #fbf9fa;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #374955;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/* h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+} */
+div {
+    display: block;
+}
+
+h1{
+  font-family: 'Nova Mono', monospace;
+  color: #4b125c;
+  font-size: 22px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #374955;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #374955;
+}
+
+a{
+  color: #4b125c;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.list-inline {
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.city_img{
+  width: 400px;
+  border-radius: 14px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background: #e8f3ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-green {
+  background-color: #FF7425;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+  margin: 5px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.btn-green:hover {
+  background-color: #ff8f54;
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+#profile{
+  width: 300px;
+  height: 300px;
+  border-radius: 24px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
